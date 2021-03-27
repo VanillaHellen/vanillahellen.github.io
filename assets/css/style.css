@@ -3254,12 +3254,12 @@ mark {
         visibility: hidden;
     }
     .cd-timeline__img--bounce-in {
-        -webkit-animation: fadein 0.6s;
-        animation: fadein 0.6s;
+        -webkit-animation: fadein 2s;
+        animation: fadein 2s;
     }
     .cd-timeline__content--bounce-in {
-        -webkit-animation: fadein 0.6s;
-        animation: fadein 0.6s;
+        -webkit-animation: fadein 2s;
+        animation: fadein 2s;
     }
     .cd-timeline__block:nth-child(even) .cd-timeline__content--bounce-in {
         /* -webkit-animation-name: cd-bounce-2-inverse; */
