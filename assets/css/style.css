@@ -3139,7 +3139,7 @@ mark {
 @supports (--css: variables) {
     @media (min-width: 64rem) {
         :root {
-            --cd-header-height: 300px;
+            --cd-header-height: 200px;
         }
     }
 }
