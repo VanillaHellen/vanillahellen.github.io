@@ -2964,6 +2964,7 @@ mark {
 .cd-main-header h1 {
     font-family: 'PT Mono', monospace;
     color: inherit;
+    margin: 10px;
 }
 .cd-timeline {
     overflow: hidden;
