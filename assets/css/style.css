@@ -3140,7 +3140,7 @@ mark {
     }
 }
 .cd-timeline__img::before {
-    content: '&#9679;';
+    content: '&#9679';
 }
 .cd-timeline__img {
     font-size: 40px;
