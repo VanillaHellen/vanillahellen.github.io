@@ -3139,8 +3139,8 @@ mark {
         flex-direction: row-reverse;
     }
 }
-.cd-timeline__img::before {
-    content: '&#9679';
+.cd-timeline__img::after {
+    content: "&#9679";
 }
 .cd-timeline__img {
     font-size: 40px;
