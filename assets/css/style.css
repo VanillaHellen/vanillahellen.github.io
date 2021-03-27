@@ -103,7 +103,10 @@ body {
 footer {
     padding: 30px;
     background-color: #22262b;
-    color: white;
+    color: #E9DA9E;
+}
+footer a {
+    color: #6f6747;
 }
 
 article,
@@ -2952,7 +2955,7 @@ mark {
 .cd-main-header {
     height: 200px;
     height: 200px;
-    background: #444b55;
+    background: #c4583b;
     color: hsl(0, 0%, 100%);
     color: var(--color-white);
     -webkit-font-smoothing: antialiased;
@@ -3018,6 +3021,7 @@ mark {
     }
 }
 .cd-timeline__img::after {
+    color: #D39470;
     content: '\25CF';
 }
 .cd-timeline__img {
@@ -3113,7 +3117,7 @@ mark {
     line-height: 1;
     border: 0;
     border-radius: 0.25em;
-    background-color: #818D98;
+    background-color: #CF775E;
     color: white;
     padding: 15px 32px;
     cursor: pointer;
