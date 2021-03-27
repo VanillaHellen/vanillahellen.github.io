@@ -3169,7 +3169,7 @@ mark {
         will-change: transform;
     }
     .cd-timeline__block:nth-child(even) .cd-timeline__img {
-        margin-right: calc(5% - 30px);
+        margin-right: calc(5% - 20px);
     }
 }
 .cd-timeline__img--picture {
@@ -3222,9 +3222,9 @@ mark {
         font-size: 0.8em;
         --line-height-multiplier: 1.2;
     }
-    .cd-timeline__content::before {
+    /* .cd-timeline__content::before {
         top: 24px;
-    }
+    } */
     .cd-timeline__block:nth-child(odd) .cd-timeline__content::before {
         right: auto;
         left: 100%;
