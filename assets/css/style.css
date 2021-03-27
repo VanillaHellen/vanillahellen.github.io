@@ -3212,6 +3212,21 @@ mark {
     color: hsl(206, 21%, 24%);
     color: var(--cd-color-1);
 }
+.btn-group .button {
+    background-color: #818D98;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .btn-group .button:hover {
+    opacity: 0.8;
+  }
+
 @media (min-width: 64rem) {
     .cd-timeline__content {
         width: 45%;
@@ -3222,9 +3237,6 @@ mark {
         font-size: 0.8em;
         --line-height-multiplier: 1.2;
     }
-    /* .cd-timeline__content::before {
-        top: 24px;
-    } */
     .cd-timeline__block:nth-child(odd) .cd-timeline__content::before {
         right: auto;
         left: 100%;
