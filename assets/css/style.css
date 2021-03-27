@@ -135,7 +135,6 @@ select {
     margin: 0;
 }
 .btn,
-.form-control,
 .link,
 .reset {
     background-color: transparent;
@@ -147,9 +146,6 @@ select {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-}
-select.form-control::-ms-expand {
-    display: none;
 }
 textarea {
     resize: vertical;
@@ -1304,41 +1300,6 @@ u,
 .btn--icon {
     padding: 0.5em;
     padding: var(--btn-padding-y, 0.5em);
-}
-.form-control {
-    background-color: hsl(0, 0%, 100%);
-    background-color: var(--color-bg, #f2f2f2);
-    padding-top: 0.5em;
-    padding-top: var(--form-control-padding-y, 0.5em);
-    padding-bottom: 0.5em;
-    padding-bottom: var(--form-control-padding-y, 0.5em);
-    padding-left: 0.75em;
-    padding-left: var(--form-control-padding-x, 0.75em);
-    padding-right: 0.75em;
-    padding-right: var(--form-control-padding-x, 0.75em);
-    border-radius: 0.25em;
-    border-radius: var(--form-control-radius, 0.25em);
-}
-.form-control::-webkit-input-placeholder {
-    color: hsl(240, 1%, 48%);
-    color: var(--color-contrast-medium, #79797c);
-}
-.form-control::-moz-placeholder {
-    opacity: 1;
-    color: hsl(240, 1%, 48%);
-    color: var(--color-contrast-medium, #79797c);
-}
-.form-control:-ms-input-placeholder {
-    color: hsl(240, 1%, 48%);
-    color: var(--color-contrast-medium, #79797c);
-}
-.form-control:-moz-placeholder {
-    color: hsl(240, 1%, 48%);
-    color: var(--color-contrast-medium, #79797c);
-}
-.form-control[disabled],
-.form-control[readonly] {
-    cursor: not-allowed;
 }
 .form-legend {
     color: hsl(240, 8%, 12%);
@@ -3067,42 +3028,6 @@ mark {
 .btn--disabled {
     opacity: 0.6;
 }
-:root {
-    --form-control-padding-x: var(--space-sm);
-    --form-control-padding-y: var(--space-xs);
-    --form-control-radius: 0.25em;
-}
-.form-control {
-    border: 2px solid hsl(240, 1%, 83%);
-    border: 2px solid var(--color-contrast-low);
-}
-.form-control:focus {
-    outline: none;
-    border-color: hsl(220, 90%, 56%);
-    border-color: var(--color-primary);
-    --color-shadow: hsla(220, 90%, 56%, 0.2);
-    --color-shadow: hsla(var(--color-primary-h), var(--color-primary-s), var(--color-primary-l), 0.2);
-    box-shadow: undefined;
-    box-shadow: 0 0 0 3px var(--color-shadow);
-}
-.form-control:focus:focus {
-    box-shadow: 0 0 0 3px hsla(220, 90%, 56%, 0.2);
-    box-shadow: 0 0 0 3px var(--color-shadow);
-}
-.form-control[aria-invalid="true"] {
-    border-color: hsl(355, 90%, 61%);
-    border-color: var(--color-error);
-}
-.form-control[aria-invalid="true"]:focus {
-    --color-shadow: hsla(355, 90%, 61%, 0.2);
-    --color-shadow: hsla(var(--color-error-h), var(--color-error-s), var(--color-error-l), 0.2);
-    box-shadow: undefined;
-    box-shadow: 0 0 0 3px var(--color-shadow);
-}
-.form-control[aria-invalid="true"]:focus:focus {
-    box-shadow: 0 0 0 3px hsla(355, 90%, 61%, 0.2);
-    box-shadow: 0 0 0 3px var(--color-shadow);
-}
 .form-label {
     font-size: 0.83333em;
     font-size: var(--text-sm);
@@ -3225,9 +3150,6 @@ mark {
     flex-shrink: 0;
     width: 40px;
     height: 40px;
-    border-radius: 50%;
-    box-shadow: 0 0 0 4px hsl(0, 0%, 100%), inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
-    box-shadow: 0 0 0 4px var(--color-white), inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 .cd-timeline__img img {
     width: 24px;
@@ -3270,8 +3192,6 @@ mark {
     border-radius: var(--radius-md);
     padding: 1.25em;
     padding: var(--space-md);
-    box-shadow: 0 3px 0 hsl(205, 38%, 89%);
-    box-shadow: 0 3px 0 var(--cd-color-2);
 }
 .cd-timeline__content::before {
     content: "";
