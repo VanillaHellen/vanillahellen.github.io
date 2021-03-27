@@ -101,6 +101,7 @@ body {
     background-color: var(--color-bg, white);
 }
 footer {
+    padding: 30px;
     background-color: #D8E5EE;
 }
 
