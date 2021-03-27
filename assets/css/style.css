@@ -2744,10 +2744,7 @@ u,
 .color-inherit {
     color: inherit;
 }
-.color-contrast-medium {
-    color: hsl(240, 1%, 48%);
-    color: var(--color-contrast-medium, #79797c);
-}
+
 .color-contrast-high {
     color: hsl(240, 4%, 20%);
     color: var(--color-contrast-high, #313135);
@@ -3211,6 +3208,37 @@ mark {
 .cd-timeline__content h2 {
     color: hsl(206, 21%, 24%);
     color: var(--cd-color-1);
+}
+.summary {
+    color: hsl(240, 1%, 48%);
+    color: var(--color-contrast-medium, #79797c);
+}
+.history {
+    display:none;
+    }
+    p {
+    margin:0 0 10px;
+    }
+    button {
+    margin-top:10px;
+}
+.attack {
+    display:none;
+    }
+    p {
+    margin:0 0 10px;
+    }
+    button {
+    margin-top:10px;
+}
+.protect {
+    display:none;
+    }
+    p {
+    margin:0 0 10px;
+    }
+    button {
+    margin-top:10px;
 }
 .btn-group .button {
     background-color: #818D98;
