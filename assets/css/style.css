@@ -3140,7 +3140,7 @@ mark {
     }
 }
 .cd-timeline__img::after {
-    content: "&#9679";
+    content: '\25CF';
 }
 .cd-timeline__img {
     font-size: 40px;
