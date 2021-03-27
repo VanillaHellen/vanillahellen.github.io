@@ -3139,7 +3139,11 @@ mark {
         flex-direction: row-reverse;
     }
 }
+.cd-timeline__img::before {
+    content: '&#9679;';
+}
 .cd-timeline__img {
+    font-size: 40px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: center;
@@ -3157,11 +3161,11 @@ mark {
 }
 @media (min-width: 64rem) {
     .cd-timeline__img {
-        width: 60px;
-        height: 60px;
+        width: 40px;
+        height: 40px;
         -ms-flex-order: 1;
         order: 1;
-        margin-left: calc(5% - 30px);
+        margin-left: calc(5% - 20px);
         will-change: transform;
     }
     .cd-timeline__block:nth-child(even) .cd-timeline__img {
@@ -3260,10 +3264,6 @@ mark {
     .cd-timeline__content--bounce-in {
         -webkit-animation: fadein 2s;
         animation: fadein 2s;
-    }
-    .cd-timeline__block:nth-child(even) .cd-timeline__content--bounce-in {
-        /* -webkit-animation-name: cd-bounce-2-inverse; */
-        /* animation-name: cd-bounce-2-inverse; */
     }
 }
 @-webkit-keyframes cd-bounce-1 {
